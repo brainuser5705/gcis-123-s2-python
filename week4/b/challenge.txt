@@ -1,0 +1,25 @@
+1. What is the difference between `is` and `==`? Demonstrate it.
+
+2. Can you do int(True)? If so, what is it equal to?
+
+3. What will this print out?
+	if (3*3):
+		print("hello")
+	else:
+		print("bye")
+
+4. What is the purpose of:
+	if __name__ == '__main__':
+
+5. Define these:
+- Test Driven Development
+- Stubbing
+- Edge cases
+- Unit testing
+- Testing suite
+- Test code
+- Production code
+- Breakpoints
+- Stepping
+
+
