@@ -12,18 +12,20 @@ string = "hello this is a string!"
 
 def print_vowels(string):
     """
-    2. Create a function that prints the vowels of a string and returns the number of vowels 
+    2. Create a function that prints the vowels of a string in a single line and returns the number of vowels 
 
     Example input:
     string = "hello world this is a vowel and stuff, hopefully will contain!!!! some vowels"
-    returns: 16
+
+    "eooiiaoeauoeuioaioeoe"
+    returns: 21
     """
     pass
 
 
 def fizzbuzz(number):
     """
-    3. Use test driven development to create a function that implements fizzbuzz
+    3. Use test driven development to create a function that implements fizzbuzz (in a separate file)
 
     Fizzbuzz:
     - prints FizzBuzz if the modulo of 3 and 5 from a number has a remainder of 0
@@ -56,3 +58,17 @@ def longest_line():
     >> 
     """
     pass
+
+
+def main():
+    print_even()
+    
+    a_string = "hello world this is a vowel and stuff, hopefully will contain!!!! some vowels"
+    print_vowels(a_string)
+
+    fizzbuzz(35)
+
+    longest_line()
+
+if __name__ == "__main__":
+    main()
