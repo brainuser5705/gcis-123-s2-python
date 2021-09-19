@@ -6,6 +6,8 @@ def get_max(d1, d2):
     """
 
     # TO DO:
+    return d1 if d1 > d2 else d2
+    
 
 def get_min(d1, d2):
     """
@@ -15,4 +17,8 @@ def get_min(d1, d2):
     """
 
     # TO DO:
+    if d1 < d2:
+        return d1
+    else:
+        return d2
 
