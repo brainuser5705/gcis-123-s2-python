@@ -1,7 +1,7 @@
 import turtle as t
 import words # validate_string, is_palindrome, is_vowel, get_vowel_count
 
-SIZE = 20
+SIZE = 30
 ROWS = 20
 COLS = 20
 
@@ -23,12 +23,17 @@ def draw_letter_pixel(color, letter):
     """
     pass
 
-def draw_column(string):
+def draw_string(string):
     """
     Draw the string as a column of letter pixels
     :param: string - the string to draw
     """
     pass
+
+def next_column():
+    """
+    Moves the turtle to the start of the next column
+    """
 
 def main():
     """
