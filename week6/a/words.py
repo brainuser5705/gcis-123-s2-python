@@ -6,12 +6,6 @@ def validate_string(string):
     """
     pass 
 
-def is_palindrome(string):
-    """
-    Checks if a string is a palindrome
-
-    """
-
 def is_vowel(character):
     """
     Checks if a character is a vowel
